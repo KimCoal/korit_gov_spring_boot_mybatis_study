@@ -1,6 +1,6 @@
-package com.korit.mybatis_study.mapper;
+package com.korit.mybatis_study.board.mapper;
 
-import com.korit.mybatis_study.entity.Board;
+import com.korit.mybatis_study.board.entity.Board;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

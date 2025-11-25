@@ -1,10 +1,10 @@
-package com.korit.mybatis_study.service;
+package com.korit.mybatis_study.board.service;
 
-import com.korit.mybatis_study.dto.AddBoardReqDto;
-import com.korit.mybatis_study.dto.ApiRespDto;
-import com.korit.mybatis_study.dto.EditBoardReqDto;
-import com.korit.mybatis_study.entity.Board;
-import com.korit.mybatis_study.repository.BoardRepository;
+import com.korit.mybatis_study.board.dto.AddBoardReqDto;
+import com.korit.mybatis_study.board.dto.ApiRespDto;
+import com.korit.mybatis_study.board.dto.EditBoardReqDto;
+import com.korit.mybatis_study.board.entity.Board;
+import com.korit.mybatis_study.board.repository.BoardRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

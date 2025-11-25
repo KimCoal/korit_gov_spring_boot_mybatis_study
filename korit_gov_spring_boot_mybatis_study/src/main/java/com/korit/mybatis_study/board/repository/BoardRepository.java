@@ -1,7 +1,7 @@
-package com.korit.mybatis_study.repository;
+package com.korit.mybatis_study.board.repository;
 
-import com.korit.mybatis_study.entity.Board;
-import com.korit.mybatis_study.mapper.BoardMapper;
+import com.korit.mybatis_study.board.entity.Board;
+import com.korit.mybatis_study.board.mapper.BoardMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DuplicateKeyException;
 import org.springframework.stereotype.Repository;

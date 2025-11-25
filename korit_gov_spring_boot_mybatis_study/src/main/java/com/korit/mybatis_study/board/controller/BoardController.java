@@ -1,8 +1,8 @@
-package com.korit.mybatis_study.controller;
+package com.korit.mybatis_study.board.controller;
 
-import com.korit.mybatis_study.dto.AddBoardReqDto;
-import com.korit.mybatis_study.dto.EditBoardReqDto;
-import com.korit.mybatis_study.service.BoardService;
+import com.korit.mybatis_study.board.dto.AddBoardReqDto;
+import com.korit.mybatis_study.board.dto.EditBoardReqDto;
+import com.korit.mybatis_study.board.service.BoardService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

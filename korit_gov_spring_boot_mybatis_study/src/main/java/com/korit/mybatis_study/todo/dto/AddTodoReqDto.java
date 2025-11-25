@@ -1,17 +1,17 @@
-package com.korit.mybatis_study.dto;
+package com.korit.mybatis_study.todo.dto;
 
-import com.korit.mybatis_study.entity.Board;
+import com.korit.mybatis_study.todo.entity.Todo;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class AddBoardReqDto {
+public class AddTodoReqDto {
     private String title;
     private String content;
 
-    public Board toEntity() {
-        return Board.builder()
+    public Todo toEntity() {
+        return Todo.builder()
                 .title(title)
                 .content(content)
                 .build();
